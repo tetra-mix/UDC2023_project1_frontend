@@ -1,15 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-import EditScreenInfo from '../../components/EditScreenInfo';
 import { Text, View } from '../../components/Themed';
-import Map from '../../components/Map';
-
-export default function TabTwoScreen() {
+export default function TabFourScreen() {
   return (
     <View style={styles.container}>
-      <Map />
-      <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
-      <EditScreenInfo path="app/(tabs)/two.tsx" />
+      <Text style={styles.title}>Tab Three</Text>
     </View>
   );
 }

@@ -5,7 +5,7 @@ import { Flex, Center } from 'native-base';
 // UIライブラリが使用できない　←原因不明
 // 使いたいのはレイアウトができるライブラリ mui, native-base
 // これを使うと静的レンダリングエラーが発生する。
-// 使えるライブラリは react-native-paper
+// 使えるライブラリは react-native-paper, react-native-elements
 
 import '../../css/style.css'
 export default function TabOneScreen() {

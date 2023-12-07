@@ -14,7 +14,7 @@ import '../css/Map.css';
 L.Icon.Default.imagePath = 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/';
 
 //test
-// 'https://api.gtfs-data.jp/v2/organizations/wataraitown/feeds/choeibus/files/stops.geojson';
+// 'https://api.gtfs-data.jp/v2/organizations/isecity/feeds/communitybus/files/routes.geojson';
 
 function Map() {
   const organization_id = 'isecity';
